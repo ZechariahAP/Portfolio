@@ -12,9 +12,17 @@ h1 {
 }
 article {
     display: inline-block;
+    color: #f0d3d7;
 }
 aside {
     display: inline-block;
+    color: #f0d3d7;
+    font-size: 30px;
+    padding-top: 30px;
+}
+img {
+    float:right;
+    padding: 60px;
 }
 h2 {
     color: #F0D3D7;
@@ -35,6 +43,7 @@ body > p {
     background-color: #120D31;
     text-align: left;
     color: #F0D3D7;
+    display:flex;
 }
 .navbar {
     text-align: center;
@@ -54,12 +63,20 @@ body > p {
 .navbar > li {
     display: inline-block;
 }
+a {
+    padding: 0px 10px;
+    margin: 5px;
+    font-size: 18px;
+}
 a:hover {
-    font-size: 12px;
+    font-size: 16px;
 }
 a:link {
     color: #A57982;
 }
 a:active {
     color:#F0D3D7
+}
+a:visited {
+    color: #A589;
 }
